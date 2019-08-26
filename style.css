@@ -11,13 +11,12 @@ body{
   background-color: #343a40;
      }
 
-.main{
-   height: 300px;
+.section{
   background-color: #1abc9c;  
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
- }
+   }
 
  p{
   display: inline-block;
@@ -30,7 +29,44 @@ h1{
   margin-right: 400px;
 }
 
-img {
+.img-perfil {
   width: 100px;
-  display: center;
+  text-align: center;
+}
+
+ .portfolio {
+  text-align: center;
+  color: #343a40;
+     }
+
+
+ .img-portfolio {
+   width: 200px;
+   display: inline-block;
+   margin: 20px;
+ }
+
+ .img-portfolio img {
+   width: 100%;
+ }
+
+.about-text {
+  display:inline-block;
+  width: 300px; 
+  text-align: left;
+}
+
+
+.line-1 {
+height: 3px;
+width: 6%;
+  color: #343a40;
+  background-color: #343a40
+ }
+
+.line-2 {
+  color: white;
+  background-color: white;
+  height: 3px;
+  width: 6%;
 }
